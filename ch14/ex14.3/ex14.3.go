@@ -7,7 +7,7 @@ type Data struct { // Data 타입 구조체
 	data  [200]int
 }
 
-func ChangeData(arg Data) {
+func ChangeData(arg Data) { // 매개변수로 Data를 받습니다.
 	arg.value = 999
 	arg.data[100] = 999
 }
